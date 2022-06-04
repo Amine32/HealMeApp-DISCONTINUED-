@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/requestmedicine"
+    android:windowSoftInputMode="stateVisible|adjustPan">
+
+    <TextView
+        android:id="@+id/Request_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="120dp"
+        android:text="Description* "
+        android:textSize="19dp"
+
+        />
+
+    <EditText
+        android:id="@+id/txtRequest_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Request_Description"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="15"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:maxLines="4"
+        android:scrollbars="vertical"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/Request_Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="40dp"
+        android:text="Address* "
+        android:textSize="19dp"
+        android:layout_below="@id/txtRequest_Description"
+
+        />
+
+    <TextView
+        android:id="@+id/Request_AddAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRequest_Description"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/Request_Address"
+        android:text="+ "
+        android:textColor="@color/purple_200"
+        android:textSize="24dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/request_spinner_address"
+        android:layout_width="315dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/Request_Address"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:maxLines="4"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/request_spinner_address"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/Request_btnSubmit"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="200dp"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/Request_Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="-290dp"
+            android:layout_toLeftOf="@id/Request_btnSubmit"
+            android:gravity="center"
+            android:text="@string/Cancel_underlined"
+
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

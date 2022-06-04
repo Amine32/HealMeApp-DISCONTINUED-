@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty_background"
+    android:orientation="vertical"
+    android:windowSoftInputMode="stateVisible|adjustPan"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="100dp"
+                android:layout_marginLeft="55dp"
+                android:text="Country*"
+                android:textSize="20dp"
+
+                />
+
+            <EditText
+                android:id="@+id/address_Country"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/Country"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="-90dp"
+                android:background="@drawable/edit_text_border"
+                android:ems="15"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/District"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address_Country"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:text="District*"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/address_District"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/District"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                android:ems="15"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/Building"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address_District"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:text="Building*"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/address_Building"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/Building"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                android:ems="15"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/Street"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address_Building"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:text="Street*"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/address_Street"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/Street"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                android:ems="15"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/HouseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address_Street"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:text="Residence Name*"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/address_HouseName"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/HouseName"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                android:ems="15"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/Floor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address_HouseName"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:text="Floor*"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/address_Floor"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/Floor"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                android:ems="15"
+                android:paddingLeft="10dp"
+                />
+
+            <Button
+                android:id="@+id/btnAddAddress"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/address_Floor"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button"
+                android:ems="19"
+                android:text="Add"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

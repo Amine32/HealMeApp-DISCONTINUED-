@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HealMeApp</string>
+    <string name="Cancel_underlined"> <u>Cancel</u></string>
 </resources>
