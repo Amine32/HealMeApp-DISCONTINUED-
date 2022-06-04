@@ -10,7 +10,7 @@ import android.view.WindowManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class ToHome extends AppCompatActivity {
+public class ToHomeActivity extends AppCompatActivity {
 
     BottomNavigationView navigationView;
 
