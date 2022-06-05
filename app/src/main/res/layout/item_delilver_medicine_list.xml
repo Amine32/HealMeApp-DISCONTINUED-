@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/box">
+
+
+        <TextView
+            android:id="@+id/textViewOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Order Id :"
+            android:textSize="19dp"
+
+            />
+
+        <TextView
+            android:id="@+id/DeliverMedicineList_OrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/textViewOrderId"
+            android:text=""
+            android:textSize="19dp"
+
+            />
+
+        <TextView
+            android:id="@+id/TextViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DeliverMedicineList_OrderId"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Name :"
+            android:textSize="19dp"
+
+            />
+
+        <TextView
+            android:id="@+id/DeliverMedicineList_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DeliverMedicineList_OrderId"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/TextViewName"
+            android:text=""
+            android:textSize="19dp"
+
+            />
+
+        <TextView
+            android:id="@+id/TextViewAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DeliverMedicineList_Name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Address :"
+            android:textSize="19dp"
+
+            />
+
+        <TextView
+            android:id="@+id/DeliverMedicineList_Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DeliverMedicineList_Name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/TextViewAddress"
+            android:text=""
+            android:textSize="19dp"
+
+            />
+
+        <TextView
+            android:id="@+id/TextViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DeliverMedicineList_Address"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Description :"
+            android:textSize="19dp"
+
+            />
+
+        <TextView
+            android:id="@+id/DeliverMedicineList_Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DeliverMedicineList_Address"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/TextViewDescription"
+            android:maxLength="40"
+            android:text=""
+            android:textSize="19dp"
+
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
