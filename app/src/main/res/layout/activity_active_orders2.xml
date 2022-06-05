@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActiveOrdersDescriptionFragment"
+    android:background="@drawable/empty_background"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewOrderId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Order Id :"
+                android:textSize="19dp"
+
+                />
+
+            <TextView
+                android:id="@+id/TextViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/textViewOrderId"
+                android:text="Name :"
+                android:textSize="19dp"
+
+                />
+
+            <TextView
+                android:id="@+id/TextViewMedicine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/ActiveOrders2_Name"
+                android:text="Medicine :"
+                android:textSize="19dp"
+
+                />
+
+            <TextView
+                android:id="@+id/TextViewAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/ActiveOrders2_Medicine"
+                android:text="Address :"
+                android:textSize="19dp"
+
+                />
+
+            <TextView
+                android:id="@+id/TextViewDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/ActiveOrders2_Address"
+                android:text="Description : "
+                android:textSize="19dp"
+
+                />
+
+            <TextView
+                android:id="@+id/TextViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ActiveOrders2_Description"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:text="Price : "
+                android:textSize="19dp"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextViewPrice"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ActiveOrders2_btnBack"
+                    android:layout_width="85dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="100dp"
+                    android:background="@drawable/button"
+                    android:text="Back"
+                    android:textSize="8dp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/ActiveOrders2_OrderId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/textViewOrderId"
+                android:text=""
+                android:textSize="19dp"
+
+                />
+
+            <TextView
+                android:id="@+id/ActiveOrders2_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/TextViewName"
+                android:layout_below="@id/ActiveOrders2_OrderId"
+                android:text=""
+                android:textSize="19dp"
+
+                />
+
+            <TextView
+                android:id="@+id/ActiveOrders2_Medicine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ActiveOrders2_Name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/TextViewMedicine"
+                android:text=""
+                android:textSize="19dp"
+
+                />
+
+            <TextView
+                android:id="@+id/ActiveOrders2_Address"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ActiveOrders2_Medicine"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@id/TextViewAddress"
+                android:text=""
+                android:textSize="17dp"
+                />
+
+            <TextView
+                android:id="@+id/ActiveOrders2_Description"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ActiveOrders2_Address"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@id/TextViewDescription"
+                android:text=""
+                android:textSize="17dp"
+
+                />
+
+            <TextView
+                android:id="@+id/ActiveOrders2_Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/TextViewPrice"
+                android:layout_below="@id/ActiveOrders2_Description"
+                android:text=""
+                android:textSize="19dp"
+
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

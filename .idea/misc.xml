@@ -13,6 +13,8 @@
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.2985" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/drawable-v24/quantity_indicator_box.xml" value="0.2985" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/drawable/button.xml" value="0.2985" />
+        <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/activity_active_orders.xml" value="0.358695652173913" />
+        <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/activity_active_orders2.xml" value="0.358695652173913" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/activity_add_address.xml" value="0.358695652173913" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/activity_deliver_medicine.xml" value="0.358695652173913" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/activity_deliver_medicine2.xml" value="0.358695652173913" />
@@ -23,6 +25,7 @@
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/activity_request_medicine2.xml" value="0.358695652173913" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/activity_to_home.xml" value="0.358695652173913" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/item_active_request_list.xml" value="0.358695652173913" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/item_address_name_spinner.xml" value="0.358695652173913" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/item_delilver_medicine_list.xml" value="0.358695652173913" />
         <entry key="..\:/Android Studio/HealMeApp/app/src/main/res/layout/item_medicine_name_list.xml" value="0.358695652173913" />

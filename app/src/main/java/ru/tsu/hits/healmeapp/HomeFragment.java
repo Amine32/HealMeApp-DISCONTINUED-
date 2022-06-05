@@ -49,7 +49,7 @@ public class HomeFragment extends Fragment {
         btnDeliverMedicine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), DeliverMedicine.class);
+                Intent intent = new Intent(getContext(), DeliverMedicineMainFragment.class);
                 startActivity(intent);
             }
         });
@@ -65,7 +65,7 @@ public class HomeFragment extends Fragment {
         btnActiveOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), ActiveOrders.class);
+                Intent intent = new Intent(getContext(), ActiveOrdersMainFragment.class);
                 startActivity(intent);
             }
         });
